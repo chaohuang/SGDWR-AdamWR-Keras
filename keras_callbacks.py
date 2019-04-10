@@ -13,7 +13,7 @@ class WRScheduler(Callback):
         eta_max: float >=0. The maximum of the multiplier.
         eta_decay: float >=0. The decay rate of eta_min/eta_max after each restart.
         cycle_length: int > 0. The number of epochs in the first restart cycle.
-        cycle_mult_factor: int > 0. The rate to increase the number of epochs 
+        cycle_mult_factor: float > 0. The rate to increase the number of epochs 
             in a cycle after each restart.
             
     # Reference
