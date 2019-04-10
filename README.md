@@ -30,9 +30,9 @@ model.fit(x_train, y_train, callbacks=[cb_wr])
 ```
 
 ## Tested on this system
-- python 3.6.8
+- Python 3.6.8
+- TensorFlow 1.12.0
 - Keras 2.2.4
-- tensorflow 1.12.0
 
 ## Reference
 [SGDR: Stochastic Gradient Descent with Warm Restarts](http://arxiv.org/abs/1608.03983), Ilya Loshchilov, Frank Hutter
